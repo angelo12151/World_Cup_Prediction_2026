@@ -356,46 +356,78 @@
         "Colombia|Ghana": [
             1,
             0
+        ],
+        "Canada|Morocco": [
+            0,
+            3
+        ],
+        "Paraguay|France": [
+            0,
+            1
+        ],
+        "Brazil|Norway": [
+            1,
+            2
+        ],
+        "Mexico|England": [
+            2,
+            3
+        ],
+        "Portugal|Spain": [
+            0,
+            1
+        ],
+        "United States|Belgium": [
+            1,
+            4
+        ],
+        "Argentina|Egypt": [
+            3,
+            2
+        ],
+        "Switzerland|Colombia": [
+            0,
+            0
         ]
     },
     "latest_elo": {
-        "Argentina": 2151,
-        "Spain": 2159,
-        "France": 2134,
-        "England": 2046,
-        "Brazil": 2031,
-        "Colombia": 2009,
-        "Portugal": 2013,
+        "Argentina": 2156,
+        "Spain": 2177,
+        "France": 2143,
+        "England": 2076,
+        "Brazil": 1993,
+        "Colombia": 2003,
+        "Portugal": 1995,
         "Netherlands": 1971,
-        "Norway": 1934,
+        "Norway": 1972,
         "Germany": 1908,
-        "Switzerland": 1914,
-        "Mexico": 1943,
+        "Switzerland": 1949,
+        "Mexico": 1913,
         "Japan": 1888,
         "Ecuador": 1871,
         "Croatia": 1882,
-        "Morocco": 1886,
+        "Morocco": 1921,
         "Denmark": 1869,
         "Italy": 1869,
-        "Belgium": 1910,
+        "Belgium": 1961,
         "Turkey": 1852,
         "Uruguay": 1841,
         "Austria": 1821,
         "Senegal": 1816,
-        "Paraguay": 1823,
+        "Paraguay": 1814,
         "Australia": 1795,
-        "United States": 1798,
+        "United States": 1747,
         "Algeria": 1785,
         "Ukraine": 1780,
         "Russia": 1772,
         "Nigeria": 1767,
         "Iran": 1764,
-        "Canada": 1764,
+        "Canada": 1729,
         "Scotland": 1745,
         "Greece": 1744,
         "Ivory Coast": 1727,
         "Sweden": 1731,
-        "Egypt": 1747,
+        "Egypt": 1742,
         "Serbia": 1734,
         "Venezuela": 1733,
         "South Korea": 1723,

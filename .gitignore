@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Ambienti Virtuali (se ne usi uno)
+# Ambienti Virtuali 
 venv/
 env/
 .venv/
@@ -12,8 +12,4 @@ env/
 .DS_Store
 Thumbs.db
 
-# Modelli di Machine Learning e file binari pesanti
-models/*.pkl
-
-# Se i dataset diventano troppo pesanti, decommenta la riga sotto
 # Data/*.csv

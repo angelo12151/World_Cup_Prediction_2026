@@ -473,4 +473,5 @@ print("\nReport di Classificazione ENSEMBLE Finale:")
 print(classification_report(y_test, pred_ensemble, zero_division = 0))
 
 # Salva il modello addestrato
+os.makedirs('Models', exist_ok=True)
 joblib.dump(modelli_addestrati, 'Models/modelli_wc2026.pkl')
