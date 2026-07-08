@@ -1,5 +1,6 @@
 # 🏆 Simulatore Predittivo - FIFA World Cup 2026
 
+👉 [PROVA IL SIMULATORE LIVE QUI](https://simulatore-wc2026.streamlit.app/) 👈
 
 
 ## 📌 Descrizione del Progetto
