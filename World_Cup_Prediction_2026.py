@@ -87,8 +87,8 @@ def carica_risorse():
     e il dataset strutturale contenente le statistiche di partenza delle formazioni. 
     """
 
-    modelli = joblib.load('modelli_wc2026.pkl')
-    df_squadre = pd.read_csv('dati_squadre_correnti.csv') 
+    modelli = joblib.load('Models/modelli_wc2026.pkl')
+    df_squadre = pd.read_csv('Data/dati_squadre_correnti.csv') 
     
     return modelli, df_squadre
 
