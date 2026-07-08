@@ -59,5 +59,5 @@ Esame\_WC\_Prediction/
 
 ├── requirements.txt              # Dipendenze e librerie Python necessarie
 
-└── README.md                   # Questo file
+└── README.md                     # Questo file
 
