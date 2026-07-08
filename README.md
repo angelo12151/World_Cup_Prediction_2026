@@ -1,6 +1,6 @@
 # 🏆 Simulatore Predittivo - FIFA World Cup 2026
 
-👉 [PROVA IL SIMULATORE LIVE QUI](https://simulatore-wc2026.streamlit.app/) 👈
+
 
 
 ## 📌 Descrizione del Progetto
@@ -9,7 +9,9 @@ Questa repository contiene l'intera pipeline di Data Science sviluppata per un p
 
 L'obiettivo del progetto è prevedere l'esito delle partite della FIFA World Cup 2026 e simulare l'intero andamento del torneo (fino alla determinazione del campione) attraverso l'utilizzo di algoritmi di Machine Learning e simulazioni stocastiche.
 
-
+## 🌐 Demo Live
+È possibile testare il simulatore direttamente online, senza necessità di installare alcun software in locale, tramite l'applicazione web:
+👉 **[PROVA IL SIMULATORE LIVE QUI](https://simulatore-wc2026.streamlit.app/)** 👈
 
 ## 🔬 Metodologia
 
