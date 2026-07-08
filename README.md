@@ -46,24 +46,24 @@ Di seguito il dettaglio di tutti i file presenti:
 ```text
 World_Cup_Prediction_2026/
 │
-├── Data/                               # Cartella contenente i dataset di partenza e intermedi
-│   ├── results.csv                     # Dataset storico con i risultati delle partite internazionali passate
-│   ├── elo_ratings_wc2026.csv          # Ranking Elo aggiornato per pesare la forza delle nazionali
-│   └── dati_squadre_correnti.csv       # Statistiche di forma e score calcolate durante il training
+├── Data/                                                            # Cartella contenente i dataset di partenza e intermedi
+│   ├── results.csv                                                  # Dataset storico con i risultati delle partite internazionali passate
+│   ├── elo_ratings_wc2026.csv                                       # Ranking Elo aggiornato per pesare la forza delle nazionali
+│   └── dati_squadre_correnti.csv                                    # Statistiche di forma e score calcolate durante il training
 │
-├── Docs/                               # Materiale accademico 
-│   ├── [Nome_Report].pdf               # Relazione tecnica con l'analisi delle scelte matematiche e algoritmiche
-│   └── [Nome_Slide].pptx               # Slide per l'esposizione orale e la discussione dei risultati
+├── Docs/                                                            # Materiale accademico 
+│   ├── World_Cup_Prediction_2026.pdf                                # Relazione tecnica con l'analisi delle scelte matematiche e algoritmiche
+│   └── Simulatore_Predittivo_FIFA_World_Cup_2026.pptx               # Slide per l'esposizione orale e la discussione dei risultati
 │
-├── Models/                             # Cartella per l'archiviazione dell'intelligenza artificiale
-│   └── modelli_wc2026.pkl              # Modello Ensemble pre-addestrato e serializzato pronto per l'inferenza
+├── Models/                                                          # Cartella per l'archiviazione dell'intelligenza artificiale
+│   └── modelli_wc2026.pkl                                           # Modello Ensemble pre-addestrato e serializzato pronto per l'inferenza
 │
-├── Src/                                # Cartella contenente gli script sorgente e logici
-│   ├── esporta_json.py                 # Script di setup per inizializzare le nazioni ospitanti e i gironi
-│   └── Train_wc_model.py               # Cuore del Machine Learning: calcola le feature, allena i modelli ed esporta
+├── Src/                                                             # Cartella contenente gli script sorgente e logici
+│   ├── esporta_json.py                                              # Script di setup per inizializzare le nazioni ospitanti e i gironi
+│   └── Train_wc_model.py                                            # Cuore del Machine Learning: calcola le feature, allena i modelli ed esporta
 │
-├── config_mondiale.json                # Dizionario strutturato generato automaticamente con l'albero del torneo
-├── requirements.txt                    # Elenco delle dipendenze per replicare l'ambiente di sviluppo
-├── World_Cup_Prediction_2026.py        # File principale del Frontend: esegue l'applicazione web con Streamlit
-├── .gitignore                          # File di configurazione 
-└── README.md                           # Questo documento, con la documentazione e la guida di esecuzione
+├── config_mondiale.json                                             # Dizionario strutturato generato automaticamente con l'albero del torneo
+├── requirements.txt                                                 # Elenco delle dipendenze per replicare l'ambiente di sviluppo
+├── World_Cup_Prediction_2026.py                                     # File principale del Frontend: esegue l'applicazione web con Streamlit
+├── .gitignore                                                       # File di configurazione 
+└── README.md                                                        # Questo documento, con la documentazione e la guida di esecuzione
