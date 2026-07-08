@@ -37,8 +37,8 @@ warnings.filterwarnings("ignore", message="X does not have valid feature names")
 # ---------- FASE 1: CARICAMENTO DATI E FEATURE ENGINEERING -----------
 # =====================================================================
 
-results_df = pd.read_csv('results.csv')
-elo_df = pd.read_csv('elo_ratings_wc2026.csv')
+results_df = pd.read_csv('Data/results.csv')
+elo_df = pd.read_csv('Data/elo_ratings_wc2026.csv')
 
 # Gestione Not Aviable Values
 results_df = results_df.dropna()
@@ -129,7 +129,7 @@ latest_goals_seq = latest_goals_seq.rename(columns={'goal_scored': 'last_3_goals
 
 # Unione dei dati e salvataggio del file per Streamlit
 current_stats = pd.merge(latest_elo, latest_goals_seq, on = 'team', how = 'inner')
-current_stats.to_csv('dati_squadre_correnti.csv', index = False)
+current_stats.to_csv('Data/dati_squadre_correnti.csv', index = False)
 
 # =====================================================================
 # --------------- FASE 2: ANALISI ESPLORATIVA (EDA) -------------------
@@ -473,4 +473,4 @@ print("\nReport di Classificazione ENSEMBLE Finale:")
 print(classification_report(y_test, pred_ensemble, zero_division = 0))
 
 # Salva il modello addestrato
-joblib.dump(modelli_addestrati, 'modelli_wc2026.pkl')
+joblib.dump(modelli_addestrati, 'Models/modelli_wc2026.pkl')
