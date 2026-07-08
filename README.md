@@ -45,19 +45,19 @@ Esame\_WC\_Prediction/
 
 │
 
-├── Data/                       # Dataset storici (es. risultati, rating Elo, dati correnti)
+├── Data/                         # Dataset storici (es. risultati, rating Elo, dati correnti)
 
-├── models/                     # Modelli di ML serializzati (.pkl)
+├── models/                       # Modelli di ML serializzati (.pkl)
 
-├── src/                        # Script sorgente di backend (training e configurazione JSON)
+├── src/                          # Script sorgente di backend (training e configurazione JSON)
 
-├── docs/                       # Documentazione accademica (PDF, presentazione)
+├── docs/                         # Documentazione accademica (PDF, presentazione)
 
 ├── World\_Cup\_Prediction.py     # Frontend Streamlit per l'interfaccia utente
 
-├── config\_mondiale.json        # File di configurazione per il torneo
+├── config\_mondiale.json         # File di configurazione per il torneo
 
-├── requirements.txt            # Dipendenze e librerie Python necessarie
+├── requirements.txt              # Dipendenze e librerie Python necessarie
 
 └── README.md                   # Questo file
 
