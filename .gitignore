@@ -1,0 +1,19 @@
+# Cache di Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambienti Virtuali (se ne usi uno)
+venv/
+env/
+.venv/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Modelli di Machine Learning e file binari pesanti
+models/*.pkl
+
+# Se i dataset diventano troppo pesanti, decommenta la riga sotto
+# Data/*.csv
